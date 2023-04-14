@@ -3,8 +3,20 @@
 .site-title {
     text-align: center;
     font-size: 100px;
-    outline: solid 15px red;
+    outline: solid 10px red;
     margin: 50px 50px 100px;
+}
+
+.site-title a {
+    font: inherit;
+    color: inherit;
+    text-decoration: underline transparent;
+    transition: 0.5s;
+}
+
+.site-title a:hover {
+    text-decoration: underline red;
+    transition: 1s;
 }
 
 .title{
